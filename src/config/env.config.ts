@@ -13,7 +13,7 @@ const environment = {
   env: process.env.NODE_ENV as ENVIRONMENTS,
   packageName: process.env.PACKAGE_NAME as string,
   packageVersion: VERSION,
-  databaseURI: process.env.MONGODB_URI as string
+  databaseURI: process.env.DATABASE_URL as string
 };
 
 export default environment;
