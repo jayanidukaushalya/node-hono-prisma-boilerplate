@@ -1,8 +1,8 @@
 ```
-npm install
-npm run dev
+yarn
+yarn start:local
 ```
 
 ```
-open http://localhost:3000
+open http://localhost:8000
 ```
