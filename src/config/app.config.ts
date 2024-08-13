@@ -16,7 +16,7 @@ const app = new Hono<HonoEnv>();
 app.use(
   cors({
     // add the allowed origins, methods and headers here
-    origin: '*',
+    origin: ['http://localhost:3000'],
     allowMethods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
     allowHeaders: [
       'Origin',
